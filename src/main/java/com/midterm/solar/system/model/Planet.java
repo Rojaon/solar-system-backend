@@ -16,7 +16,7 @@ import java.util.List;
 public class Planet {
     @Id
     private String name;
-    @NotEmpty(message = "Diameter In Km cannot be empty")
+    @NotEmpty(message = "Diameter cannot be empty")
     private double diameterInKm;
     @NotEmpty(message = "Properties cannot be empty")
     @Embedded

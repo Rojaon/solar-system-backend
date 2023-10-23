@@ -1,0 +1,10 @@
+package com.midterm.solar.system.controller.impl;
+
+import com.midterm.solar.system.controller.interfaces.IPlanetController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class PlanetController implements IPlanetController {
+}
