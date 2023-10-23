@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.validation.constraints.Digits;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,6 +20,7 @@ public class Moon {
     @NotEmpty(message = "Diameter In Km cannot be empty")
     private double diameterInKm;
     @NotEmpty(message = "Year Discovered cannot be empty")
+    @Digits(integer = 4, fraction = 0)
     private Integer yearDiscovered;
 
     @NotEmpty(message = "planet cannot be empty")
