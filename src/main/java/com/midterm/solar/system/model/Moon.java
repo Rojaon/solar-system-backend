@@ -23,9 +23,4 @@ public class Moon {
 //    @Digits(integer = 4, fraction = 0)
     private String yearDiscovered;
     private String planetName;
-
-//    @NotEmpty(message = "planet cannot be empty")
-//    @ManyToOne
-//    @JoinColumn(name = "planet_name")
-//    private Planet planet;
 }

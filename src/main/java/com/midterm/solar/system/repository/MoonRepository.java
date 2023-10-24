@@ -10,4 +10,6 @@ import java.util.Optional;
 @Repository
 public interface MoonRepository extends JpaRepository<Moon, String> {
 
+    List<Moon> findByYearDiscovered(String yearDiscovered);
+    List<Moon> findByPlanetName(String planetName);
 }
