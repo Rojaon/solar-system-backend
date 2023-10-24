@@ -16,6 +16,6 @@ public class PlanetProperties {
     @Enumerated(EnumType.STRING)
     private PlanetType planetType;
     @Min(30000000)
-    private long distanceFromSun;
+    private String distanceFromSunInKm;
 
 }

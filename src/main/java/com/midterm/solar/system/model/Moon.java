@@ -17,13 +17,13 @@ import jakarta.validation.constraints.NotEmpty;
 public class Moon {
     @Id
     private String name;
-    @NotEmpty(message = "Diameter cannot be empty")
-    private double diameterInKm;
-    @NotEmpty(message = "Year Discovered cannot be empty")
-    @Digits(integer = 4, fraction = 0)
-    private Integer yearDiscovered;
+//    @NotEmpty(message = "Diameter cannot be empty")
+    private Integer diameterInKm;
+//    @NotEmpty(message = "Year Discovered cannot be empty")
+//    @Digits(integer = 4, fraction = 0)
+    private String yearDiscovered;
 
-    @NotEmpty(message = "planet cannot be empty")
+//    @NotEmpty(message = "planet cannot be empty")
     @ManyToOne
     @JoinColumn(name = "planet_name")
     private Planet planet;

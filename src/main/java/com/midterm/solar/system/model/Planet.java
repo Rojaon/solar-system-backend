@@ -16,15 +16,15 @@ import java.util.List;
 public class Planet {
     @Id
     private String name;
-    @NotEmpty(message = "Diameter cannot be empty")
-    private double diameterInKm;
-    @NotEmpty(message = "Properties cannot be empty")
+//    @NotEmpty(message = "Diameter cannot be empty")
+    private Integer diameterInKm;
+//    @NotEmpty(message = "Properties cannot be empty")
     @Embedded
     private PlanetProperties properties;
     @OneToMany
     private List<Moon> moonList;
 
-    public Planet(String name, double diameterInKm, PlanetProperties properties) {
+    public Planet(String name, Integer diameterInKm, PlanetProperties properties) {
         this.name = name;
         this.diameterInKm = diameterInKm;
         this.properties = properties;
