@@ -10,5 +10,4 @@ import java.util.Optional;
 @Repository
 public interface MoonRepository extends JpaRepository<Moon, String> {
 
-//    List<Moon> findAllBy(String );
 }

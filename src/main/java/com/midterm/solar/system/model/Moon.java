@@ -22,9 +22,10 @@ public class Moon {
 //    @NotEmpty(message = "Year Discovered cannot be empty")
 //    @Digits(integer = 4, fraction = 0)
     private String yearDiscovered;
+    private String planetName;
 
 //    @NotEmpty(message = "planet cannot be empty")
-    @ManyToOne
-    @JoinColumn(name = "planet_name")
-    private Planet planet;
+//    @ManyToOne
+//    @JoinColumn(name = "planet_name")
+//    private Planet planet;
 }
