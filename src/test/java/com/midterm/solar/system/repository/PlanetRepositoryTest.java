@@ -59,5 +59,29 @@ class PlanetRepositoryTest {
         List<Planet> planetList = planetRepository.findAll();
         assertEquals(8, planetList.size());
     }
-
+    @Test
+    public void find_PlanetByID() {
+        Optional<Planet> planetOptional = planetRepository.findById("Earth");
+        assertEquals(12756, planetOptional.get().getDiameterInKm());
+    }
+    @Test
+    public void find_byPropertiesDistanceFromSunInKm_correct() {
+        Optional<Planet> planetOptional = planetRepository.findByPropertiesDistanceFromSunInKm("229,331,520");
+        assertEquals("Mars", planetOptional.get().getName());
+    }
+    @Test
+    public void find_byPropertiesDistanceFromSunInKm_not_correct() {
+        Optional<Planet> planetOptional = planetRepository.findByPropertiesDistanceFromSunInKm("229,331,520");
+        assertNotEquals("Earth", planetOptional.get().getName());
+    }
+    @Test
+    public void findAll_byPropertiesPlanetType_correct() {
+        List<Planet> planetList = planetRepository.findByPropertiesPlanetType(PlanetType.ROCKY_PLANET);
+        assertEquals(4, planetList.size());
+    }
+    @Test
+    public void findAll_byPropertiesPlanetType_not_correct() {
+        List<Planet> planetList = planetRepository.findByPropertiesPlanetType(PlanetType.ICE_GIANT);
+        assertNotEquals(4, planetList.size());
+    }
 }

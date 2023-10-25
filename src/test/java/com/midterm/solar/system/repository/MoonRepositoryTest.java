@@ -2,15 +2,11 @@ package com.midterm.solar.system.repository;
 
 import com.midterm.solar.system.model.Moon;
 import com.midterm.solar.system.model.Planet;
-import com.midterm.solar.system.model.PlanetProperties;
-import com.midterm.solar.system.model.PlanetType;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,7 +39,6 @@ class MoonRepositoryTest {
 
         earthOptional = planetRepository.findById("Earth");
         if(earthOptional.isPresent()){
-            System.out.println("exist");
             if(!earthOptional.get().getMoonList().contains(moon)){
                 earthOptional.get().addMoonToList(moon);
                 planetRepository.save(earthOptional.get());
@@ -52,7 +47,6 @@ class MoonRepositoryTest {
 
         jupiterOptional = planetRepository.findById("Jupiter");
         if(jupiterOptional.isPresent()){
-            System.out.println("exist");
             if(!jupiterOptional.get().getMoonList().contains(ganymede)){
                 jupiterOptional.get().addMoonToList(ganymede);
                 planetRepository.save(jupiterOptional.get());
@@ -84,8 +78,33 @@ class MoonRepositoryTest {
 //    }
 
     @Test
-    public void findAll_Moons() {
+    public void findAll_moons() {
         List<Moon> moonList = moonRepository.findAll();
         assertEquals(4, moonList.size());
+    }
+    @Test
+    public void find_moonByID() {
+        Optional<Moon> moontOptional = moonRepository.findById("Titan");
+        assertEquals(5152, moontOptional.get().getDiameterInKm());
+    }
+    @Test
+    public void findAll_moons_byYearDiscovered_correct() {
+        List<Moon> moonList = moonRepository.findByYearDiscovered("1610");
+        assertEquals(2, moonList.size());
+    }
+    @Test
+    public void findAll_moons_byYearDiscovered_not_correct() {
+        List<Moon> moonList = moonRepository.findByYearDiscovered("1610");
+        assertNotEquals(3, moonList.size());
+    }
+    @Test
+    public void findAll_moons_byPlanetName_correct() {
+        List<Moon> moonList = moonRepository.findByPlanetName("Saturn");
+        assertEquals(1, moonList.size());
+    }
+    @Test
+    public void findAll_moons_byPlanetName_not_correct() {
+        List<Moon> moonList = moonRepository.findByPlanetName("Saturn");
+        assertNotEquals(3, moonList.size());
     }
 }
