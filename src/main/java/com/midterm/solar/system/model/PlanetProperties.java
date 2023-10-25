@@ -4,6 +4,8 @@ import jakarta.persistence.Embeddable;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,9 +15,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PlanetProperties {
+    @NotNull(message = "Planet type cannot be empty")
     @Enumerated(EnumType.STRING)
     private PlanetType planetType;
-    @Min(30000000)
+    @NotEmpty(message = "Distance from sun cannot be empty")
+//    @Min(30000000)
     private String distanceFromSunInKm;
 
 }

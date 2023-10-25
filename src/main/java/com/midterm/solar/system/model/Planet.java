@@ -6,6 +6,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,9 +20,9 @@ import java.util.List;
 public class Planet {
     @Id
     private String name;
-//    @NotEmpty(message = "Diameter cannot be empty")
+    @NotNull(message = "Diameter cannot be empty")
     private Integer diameterInKm;
-//    @NotEmpty(message = "Properties cannot be empty")
+    @NotNull(message = "Properties cannot be empty")
     @Embedded
     private PlanetProperties properties;
     @OneToMany
