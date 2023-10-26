@@ -5,6 +5,7 @@ import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
@@ -23,12 +24,13 @@ public class Planet {
     @NotNull(message = "Diameter cannot be empty")
     private Integer diameterInKm;
     @NotNull(message = "Properties cannot be empty")
+    @Valid//****
     @Embedded
     private PlanetProperties properties;
     @OneToMany
     private List<Moon> moonList;
 
-    public Planet(String name, Integer diameterInKm, PlanetProperties properties) {
+    public Planet( String name,Integer diameterInKm, PlanetProperties properties) {
         this.name = name;
         this.diameterInKm = diameterInKm;
         this.properties = properties;

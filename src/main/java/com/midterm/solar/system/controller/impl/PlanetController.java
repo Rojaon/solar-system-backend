@@ -27,24 +27,23 @@ public class PlanetController implements IPlanetController {
     @GetMapping("/planets")
     @ResponseStatus(HttpStatus.OK)
     public List<Planet> getAllPlanets() {
-        return planetRepository.findAll();
+        return planetService.findAllPlanets();
     }
     @GetMapping("/planets/{planetName}")
     @ResponseStatus(HttpStatus.OK)
     public Planet getPlanetById(@PathVariable String planetName) {
-        Optional<Planet> planetOptional = planetRepository.findById(planetName);
-        return planetOptional.get();
+        return planetService.findPlanetById(planetName);
     }
     @GetMapping("/planets/properties/planetType")
     @ResponseStatus(HttpStatus.OK)
     public List<Planet> getPlanetsByPropertiesPlanetType(@RequestParam(defaultValue = "ROCKY_PLANET") PlanetType planetType) {
-        return planetRepository.findByPropertiesPlanetType(planetType);
+        return planetService.findByPropertiesPlanetType(planetType);
     }
 
     //  ***************************************************  POST  ****************************************************
-    @PostMapping("/planets")
+    @PostMapping("/planets/add")
     @ResponseStatus(HttpStatus.CREATED)
-    public void savePlanet(@RequestBody @Validated Planet planet) {
+    public void savePlanet(@RequestBody @Valid Planet planet) {
         planetRepository.save(planet);
     }
 
@@ -63,6 +62,10 @@ public class PlanetController implements IPlanetController {
     }
 
     //  **************************************************  DELETE  ***************************************************
-
+    @DeleteMapping("/planets/delete/{planetName}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deletePlanet(@PathVariable String planetName) {
+        planetService.deletePlanet(planetName);
+    }
 
 }
