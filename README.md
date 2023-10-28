@@ -1,18 +1,18 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
 ## Table of Contents
-- [Features](#Set_up)
-   - [Additional_Commands](#Additional_Commands)
-- [Code_Structure](#Code_Structure)
+- [Set_up](#Set_up)
+- [Getting_started](#Getting_started)
+- [UML_Class_diagram](#UML_Class_diagram)
+- [Usage](#Usage)
 - [Demo](#Demo)
-- [UML](#UML)
-- [Contributors](#Contributors)
+- [Errors_&_solutions](#Errors_&_solutions)
 ### Set up
 You need to have IntelliJ IDEA.
 
 ### Getting started
 Use web browser or Postman to test the program.
-
+### UML Class diagram
 ### Usage
 You have to copy the url and change what you need.
 |Request Method|URL|What to change|Description|
