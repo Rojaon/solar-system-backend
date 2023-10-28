@@ -4,7 +4,7 @@ This project is about Planets and their moons in the solar system.
 - [Set_up](#set_up)
 - [Getting_started](#getting_started)
 - [UML_Class_diagram](#uml_class_diagram)
-- [How to use](##how_to_use)
+- [How to use](how_to_use)
 - [Demo](#Demo)
 - [Presentation](##presentation)
 ### Set up
