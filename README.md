@@ -30,4 +30,4 @@ You have to copy the url and change what you need.
 Insert gif or link to demo
 
 ### Presentaion
-- [Click here]([https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing])
+- [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
