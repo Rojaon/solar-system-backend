@@ -1,18 +1,19 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
 ## Table of Contents
-- [Set up](#Set_up)
+- [Set_up](#Set_up)
 - [Getting_started](#Getting_started)
 - [UML_Class_diagram](#UML_Class_diagram)
 - [Usage](#Usage)
 - [Demo](#Demo)
-- [Errors & solutions](#Errors_&_solutions)
+- [Errors_&_solutions](#Errors_&_solutions)
 ### Set up
 You need to have IntelliJ IDEA.
 
 ### Getting started
 Use web browser or Postman to test the program.
 ### UML Class diagram
+![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
 ### Usage
 You have to copy the url and change what you need.
 |Request Method|URL|What to change|Description|
