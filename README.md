@@ -4,9 +4,9 @@ This project is about Planets and their moons in the solar system.
 - [Set_up](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#set-up)
 - [Getting_started](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#getting-started)
 - [UML_Class_diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#uml-class-diagram)
-- [How to use](#how_to_use)
+- [How to use](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#how-to-use)
 - [Demo](#Demo)
-- [Presentation](##presentation)
+- [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#presentaion)
 ### Set up
 You need to have IntelliJ IDEA.
 
