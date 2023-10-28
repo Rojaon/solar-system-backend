@@ -1,9 +1,9 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
 ## Table of Contents
-- [Set_up](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#set-up)
-- [Getting_started](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#getting-started)
-- [UML_Class_diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#uml-class-diagram)
+- [Set up](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#set-up)
+- [Getting started](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#getting-started)
+- [UML Class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#uml-class-diagram)
 - [How to use](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#how-to-use)
 - [Demo](#Demo)
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#presentaion)
