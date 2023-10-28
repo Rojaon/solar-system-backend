@@ -6,7 +6,7 @@ This project is about Planets and their moons in the solar system.
 - [UML_Class_diagram](#UML_Class_diagram)
 - [Usage](#Usage)
 - [Demo](#Demo)
-- [Errors_&_solutions](#Errors_&_solutions)
+- [Presentation](#Presentation)
 ### Set up
 You need to have IntelliJ IDEA.
 
