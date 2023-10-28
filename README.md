@@ -3,8 +3,8 @@ This project is about Planets and their moons in the solar system.
 ## Table of Contents
 - [Set_up](#set_up)
 - [Getting_started](#getting_started)
-- [UML_Class_diagram](#uml_class_diagram)
-- [How to use](how_to_use)
+- [UML_Class_diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/blob/main/README.md#uml-class-diagram)
+- [How to use](#how_to_use)
 - [Demo](#Demo)
 - [Presentation](##presentation)
 ### Set up
