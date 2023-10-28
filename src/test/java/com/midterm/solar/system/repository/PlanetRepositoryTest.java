@@ -43,17 +43,17 @@ class PlanetRepositoryTest {
 
     }
 
-//    @AfterEach
-//    public void tearDown() {
-////        planetRepository.deleteById("Mercury");
-////        planetRepository.deleteById("Venus");
-////        planetRepository.deleteById("Earth");
-////        planetRepository.deleteById("Mars");
-////        planetRepository.deleteById("Jupiter");
-////        planetRepository.deleteById("Saturn");
-////        planetRepository.deleteById("Uranus");
-////        planetRepository.deleteById("Neptune");
-//    }
+    @AfterEach
+    public void tearDown() {
+        planetRepository.deleteById("Mercury");
+        planetRepository.deleteById("Venus");
+        planetRepository.deleteById("Earth");
+        planetRepository.deleteById("Mars");
+        planetRepository.deleteById("Jupiter");
+        planetRepository.deleteById("Saturn");
+        planetRepository.deleteById("Uranus");
+        planetRepository.deleteById("Neptune");
+    }
 
     @Test
     public void findAll_Planets() {

@@ -24,7 +24,7 @@ public class Planet {
     @NotNull(message = "Diameter cannot be empty")
     private Integer diameterInKm;
     @NotNull(message = "Properties cannot be empty")
-    @Valid//****
+    @Valid     // Need this to validate planetProperties properties
     @Embedded
     private PlanetProperties properties;
     @OneToMany

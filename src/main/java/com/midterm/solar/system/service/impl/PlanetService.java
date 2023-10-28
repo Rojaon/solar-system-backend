@@ -25,7 +25,7 @@ public class PlanetService implements IPlanetService {
         System.out.println(planet);
         System.out.println(planetOptional.get());
         planet.setName(planetName);
-        planetRepository.save(planet);//the moon is not changing
+        planetRepository.save(planet);      // This method is to update just the planet and not the moons in the moonList
     }
 
     @Override
