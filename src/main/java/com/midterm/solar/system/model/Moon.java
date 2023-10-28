@@ -18,10 +18,7 @@ import jakarta.validation.constraints.NotEmpty;
 public class Moon {
     @Id
     private String name;
-//    @NotNull(message = "Diameter cannot be empty")
     private Integer diameterInKm;
-//    @NotNull(message = "Year Discovered cannot be empty")
-//    @Digits(integer = 4, fraction = 0)
     private String yearDiscovered;
     private String planetName;
 }
