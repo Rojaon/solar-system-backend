@@ -2,14 +2,10 @@
 This project is about Planets and their moons in the solar system.
 
 ## Set up
-
-
-### Dependencies
-*Provide links and descriptions for the third-party libraries you're having your users install.*
+You need to have IntelliJ IDEA.
 
 ### Getting started
-*What does your user need to know to get everything ready after installation?*
-*Think about databases, config files, and settings.*
+web browser to test the program.
 
 ### Usage
 *Give your users a sense of the workflow for using your project/tool.*
