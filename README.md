@@ -1,12 +1,12 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
 ## Table of Contents
-- [Set_up](#Set_up)
-- [Getting_started](#Getting_started)
-- [UML_Class_diagram](#UML_Class_diagram)
-- [How to use](#How_to_use)
+- [Set_up](#set_up)
+- [Getting_started](#getting_started)
+- [UML_Class_diagram](#uml_class_diagram)
+- [How to use](#how_to_use)
 - [Demo](#Demo)
-- [Presentation](#Presentation)
+- [Presentation](#presentation)
 ### Set up
 You need to have IntelliJ IDEA.
 
