@@ -41,8 +41,11 @@ Planet Controller
 If you want to test the repositories you need to make sure the database is empty to avoid errors.
 
 If you want to put some data in the database to test the requests, you need to do some steps:
+
 1- Open 'PlanetRepositoryTest' and comment '@AfterEach' block and run the test.
+
 2- Open 'MoonRepositoryTest' and comment '@AfterEach' block and run the test.
+
 With these steps you have some data to test the requests, and don't forgot to uncomment '@AfterEach' in both classes.
 
 ### Presentaion Slides
