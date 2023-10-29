@@ -36,5 +36,6 @@ Planet Controller
 ### Future Work
 - Create controller and service for moon class.
 ### Resources
+- https://online.visual-paradigm.com
 - https://thesolarsystem.fandom.com/wiki/List_of_the_largest_moons_by_size
 - https://thesolarsystem.fandom.com/wiki/List_of_Planets
