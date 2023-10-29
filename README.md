@@ -14,6 +14,8 @@ This project is about Planets and their moons in the solar system.
 
 ### Set up
 This project was made by spring initializr and IntelliJ IDEA and some dependencies in pom.xml.
+
+
 Dependencies:
 - Spring Data JPA
 - Spring Web
