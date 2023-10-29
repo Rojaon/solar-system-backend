@@ -8,7 +8,7 @@ This project is about Planets and their moons in the solar system.
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion-slides)
 - [Future Work](https://github.com/Rojaon/Solar-System.Midterm-Project#future-work)
 - [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
-
+------------------------------------------------------------------------------------------
 ### UML Class diagram
 ![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
 
