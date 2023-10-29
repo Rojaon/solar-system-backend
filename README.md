@@ -7,14 +7,17 @@ This project is about Planets and their moons in the solar system.
 - [How to use](https://github.com/Rojaon/Solar-System.Midterm-Project#how-to-use)
 - [Demo](#Demo)
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion)
+
+### UML Class diagram
+![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
+
 ### Set up
 You need to have IntelliJ IDEA.
 
-### Getting started
+### Technologies Used
 Use web browser or Postman to test the program.
-### UML Class diagram
-![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
-### How to use
+
+### Controllers and Routes structure
 You have to copy the url and change what you need.
 |Request Method|URL|What to change|Description|
 |--------------|---|--------------|-----------|
@@ -29,5 +32,8 @@ You have to copy the url and change what you need.
 ### Demo
 - [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
 
-### Presentaion
+### Presentaion Slides
 - [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
+
+### Resources
+
