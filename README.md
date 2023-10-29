@@ -5,7 +5,6 @@ This project is about Planets and their moons in the solar system.
 - [Set up](https://github.com/Rojaon/Solar-System.Midterm-Project#set-up)
 - [Technologies Used](https://github.com/Rojaon/Solar-System.Midterm-Project#technologies-used)
 - [Controllers and Routes structure](https://github.com/Rojaon/Solar-System.Midterm-Project#controllers-and-routes-structure)
-- [Demo](#Demo)
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion-slides)
 - [Future Work](https://github.com/Rojaon/Solar-System.Midterm-Project#future-work)
 - [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
@@ -31,12 +30,11 @@ Planet Controller
 |Patch|http://localhost:8080/api/planets/diameterInKm/Neptune|Change the planet ID "Neptune" with one of the planet in the solar system|Update the diameter in specific planet|
 |Delete|http://localhost:8080/api/planets/delete/Mer|Change the planet ID "Mer"|Delete specific planet|
 
-### Demo
-- [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
 
 ### Presentaion Slides
 - [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
 ### Future Work
 - Create controller and service for moon class.
 ### Resources
-
+- https://thesolarsystem.fandom.com/wiki/List_of_the_largest_moons_by_size
+- https://thesolarsystem.fandom.com/wiki/List_of_Planets
