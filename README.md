@@ -1,12 +1,13 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
 ## Table of Contents
-- [Set up](https://github.com/Rojaon/Solar-System.Midterm-Project#set-up)
-- [Getting started](https://github.com/Rojaon/Solar-System.Midterm-Project#getting-started)
 - [UML Class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project#uml-class-diagram)
-- [How to use](https://github.com/Rojaon/Solar-System.Midterm-Project#how-to-use)
+- [Set up](https://github.com/Rojaon/Solar-System.Midterm-Project#set-up)
+- [Technologies Used](https://github.com/Rojaon/Solar-System.Midterm-Project#technologies-used)
+- [Controllers and Routes structure](https://github.com/Rojaon/Solar-System.Midterm-Project#controllers-and-routes-structure)
 - [Demo](#Demo)
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion)
+- [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
 
 ### UML Class diagram
 ![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
