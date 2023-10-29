@@ -7,6 +7,7 @@ This project is about Planets and their moons in the solar system.
 - [Controllers and Routes structure](https://github.com/Rojaon/Solar-System.Midterm-Project#controllers-and-routes-structure)
 - [Demo](#Demo)
 - [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion-slides)
+- [Future Work](https://github.com/Rojaon/Solar-System.Midterm-Project#future-work)
 - [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
 
 ### UML Class diagram
@@ -35,6 +36,7 @@ You have to copy the url and change what you need.
 
 ### Presentaion Slides
 - [Click here](https://docs.google.com/presentation/d/1YerpXT6NnCtCX9cm0SiCQMBrdWn_BVi80xo_LIMrUyI/edit?usp=sharing)
-
+### Future Work
+- Create controller and service for moon class.
 ### Resources
 
