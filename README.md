@@ -13,7 +13,12 @@ This project is about Planets and their moons in the solar system.
 ![class diagram](https://github.com/Rojaon/Solar-System.Midterm-Project/assets/109796364/331cb623-6be2-4dba-a890-fd724778ff1e)
 
 ### Set up
-You need to have IntelliJ IDEA.
+This project was made by spring initializr and IntelliJ IDEA and some dependencies in pom.xml.
+Dependencies:
+- Spring Data JPA
+- Spring Web
+- MySQL Driver
+- Lombok
 
 ### Technologies Used
 Use web browser or Postman to test the program.
