@@ -38,7 +38,7 @@ Planet Controller
 |Delete|http://localhost:8080/api/planets/delete/Mer|Change the planet ID "Mer"|Delete specific planet|
 
 
-If you want to test the repositories you need to make sure the database is empty to avoid errors.
+If you want to test the repositories you need to make sure the database is empty to avoid some duplicate errors.
 
 If you want to put some data in the database to test the requests, you need to do some steps:
 
