@@ -20,7 +20,7 @@ You need to have IntelliJ IDEA.
 Use web browser or Postman to test the program.
 
 ### Controllers and Routes structure
-You have to copy the url and change what you need.
+Planet Controller
 |Request Method|URL|What to change|Description|
 |--------------|---|--------------|-----------|
 |Get|http://localhost:8080/api/planets|Nothing|Show all Planets in database|
