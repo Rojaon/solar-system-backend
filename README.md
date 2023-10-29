@@ -6,7 +6,7 @@ This project is about Planets and their moons in the solar system.
 - [Technologies Used](https://github.com/Rojaon/Solar-System.Midterm-Project#technologies-used)
 - [Controllers and Routes structure](https://github.com/Rojaon/Solar-System.Midterm-Project#controllers-and-routes-structure)
 - [Demo](#Demo)
-- [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion)
+- [Presentation](https://github.com/Rojaon/Solar-System.Midterm-Project#presentaion-slides)
 - [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
 
 ### UML Class diagram
