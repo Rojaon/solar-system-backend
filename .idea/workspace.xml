@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c7048cc-b9a1-48ab-a896-a82becb19bd6" name="Changes" comment="last modification">
-      <change beforePath="$PROJECT_DIR$/target/classes/com/midterm/solar/system/model/Moon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/midterm/solar/system/model/Moon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/controller/impl/MoonControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/MoonRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/MoonRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/midterm/solar/system/repository/PlanetRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/midterm/solar/system/repository/PlanetRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/PlanetRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/PlanetRepositoryTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,20 @@
       <recent name="com.midterm.solar.system.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoonRepositoryTest">
+  <component name="RunManager" selected="JUnit.PlanetRepositoryTest">
+    <configuration name="SolarSystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.midterm.solar.system.SolarSystemApplication" />
+      <module name="solar-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.midterm.solar.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoonRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="solar-system" />
       <extension name="coverage">
@@ -109,38 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlanetControllerTest.deletePlanet_validRequest_PlanetDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="solar-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.midterm.solar.system.controller.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.midterm.solar.system.controller.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.midterm.solar.system.controller.impl.PlanetControllerTest" />
-      <option name="METHOD_NAME" value="deletePlanet_validRequest_PlanetDeleted" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlanetControllerTest.updatePlanetDiameter_validBody_planetUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="solar-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.midterm.solar.system.controller.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.midterm.solar.system.controller.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.midterm.solar.system.controller.impl.PlanetControllerTest" />
-      <option name="METHOD_NAME" value="updatePlanetDiameter_validBody_planetUpdated" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlanetRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="solar-system" />
       <extension name="coverage">
@@ -156,13 +136,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlanetRepositoryTest.find_byPropertiesDistanceFromSunInKm_not_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="solar-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.midterm.solar.system.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.midterm.solar.system.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.midterm.solar.system.repository.PlanetRepositoryTest" />
+      <option name="METHOD_NAME" value="find_byPropertiesDistanceFromSunInKm_not_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoonRepositoryTest" />
         <item itemvalue="JUnit.PlanetRepositoryTest" />
+        <item itemvalue="JUnit.MoonRepositoryTest" />
+        <item itemvalue="JUnit.PlanetRepositoryTest.find_byPropertiesDistanceFromSunInKm_not_correct" />
+        <item itemvalue="Application.SolarSystemApplication" />
         <item itemvalue="JUnit.PlanetControllerTest" />
-        <item itemvalue="JUnit.PlanetControllerTest.deletePlanet_validRequest_PlanetDeleted" />
-        <item itemvalue="JUnit.PlanetControllerTest.updatePlanetDiameter_validBody_planetUpdated" />
       </list>
     </recent_temporary>
   </component>
