@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c7048cc-b9a1-48ab-a896-a82becb19bd6" name="Changes" comment="last modification">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/midterm/solar/system/repository/PlanetRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/midterm/solar/system/repository/PlanetRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/PlanetRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/midterm/solar/system/repository/PlanetRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/SolarSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/SolarSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/controller/impl/MoonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/controller/impl/MoonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/controller/interfaces/IMoonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/controller/interfaces/IMoonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/model/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/midterm/solar/system/model/Planet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/spring framework/solar system/solar-system&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/spring framework/lab 6.04 open feign/lab 6.04 open feign/student-info-service",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.midterm.solar.system.repository" />
@@ -77,7 +80,7 @@
       <recent name="com.midterm.solar.system.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlanetRepositoryTest">
+  <component name="RunManager" selected="Application.SolarSystemApplication">
     <configuration name="SolarSystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.midterm.solar.system.SolarSystemApplication" />
       <module name="solar-system" />
@@ -154,10 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolarSystemApplication" />
         <item itemvalue="JUnit.PlanetRepositoryTest" />
         <item itemvalue="JUnit.MoonRepositoryTest" />
         <item itemvalue="JUnit.PlanetRepositoryTest.find_byPropertiesDistanceFromSunInKm_not_correct" />
-        <item itemvalue="Application.SolarSystemApplication" />
         <item itemvalue="JUnit.PlanetControllerTest" />
       </list>
     </recent_temporary>

@@ -1,6 +1,7 @@
 package com.midterm.solar.system.model;
 
 import com.midterm.solar.system.repository.PlanetRepository;
+import jakarta.annotation.Nullable;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -38,6 +39,10 @@ public class Planet {
 
     public void addMoonToList(Moon moon) {
         this.moonList.add(moon);
+        setMoonList(this.moonList);
+    }
+    public void removeMoonFromList(Moon moon) {
+        this.moonList.remove(moon);
         setMoonList(this.moonList);
     }
 }

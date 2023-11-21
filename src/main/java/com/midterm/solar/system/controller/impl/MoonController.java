@@ -1,10 +1,51 @@
 package com.midterm.solar.system.controller.impl;
 
 import com.midterm.solar.system.controller.interfaces.IMoonController;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.midterm.solar.system.model.Moon;
+import com.midterm.solar.system.model.Planet;
+import com.midterm.solar.system.repository.MoonRepository;
+import com.midterm.solar.system.repository.PlanetRepository;
+import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
+
+import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
 public class MoonController  implements IMoonController {
+    @Autowired
+    MoonRepository moonRepository;
+    @Autowired
+    PlanetRepository planetRepository;
+    @GetMapping("/moons")
+    @ResponseStatus(HttpStatus.OK)
+    public List<Moon> getAllMoons() {
+        List<Moon> moonList = moonRepository.findAll();
+        if (moonList.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No moons found.");
+        else return moonList;
+    }
+
+    @PostMapping("/moons/add")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void saveMoon(@RequestBody @Valid Moon moon) {
+        moonRepository.save(moon);
+
+        Optional<Planet> planetOptional = planetRepository.findById(moon.getPlanetName());
+        planetOptional.get().addMoonToList(moon);
+        planetRepository.save(planetOptional.get());
+    }
+
+    @DeleteMapping("/moons/delete/{moonName}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteMoon(@PathVariable String moonName) {
+        Optional<Moon> moonOptional = moonRepository.findById(moonName);
+        if (moonOptional.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Moon " + moonName + " not found");
+        Optional<Planet> planetOptional = planetRepository.findById(moonOptional.get().getPlanetName());
+        planetOptional.get().removeMoonFromList(moonOptional.get()); // to avoid constraints.
+        moonRepository.deleteById(moonName);
+    }
 }
