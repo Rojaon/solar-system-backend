@@ -32,6 +32,8 @@ public class MoonController  implements IMoonController {
     @PostMapping("/moons/add")
     @ResponseStatus(HttpStatus.CREATED)
     public void saveMoon(@RequestBody @Valid Moon moon) {
+        Optional<Moon> moonOptional = moonRepository.findById(moon.getName());
+        if (moonOptional.isPresent()) throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Already Exist.");
         moonRepository.save(moon);
 
         Optional<Planet> planetOptional = planetRepository.findById(moon.getPlanetName());
