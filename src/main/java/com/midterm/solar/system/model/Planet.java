@@ -30,11 +30,13 @@ public class Planet {
     private PlanetProperties properties;
     @OneToMany
     private List<Moon> moonList;
+    private String img;
 
-    public Planet( String name,Integer diameterInKm, PlanetProperties properties) {
+    public Planet( String name,Integer diameterInKm, PlanetProperties properties, String img) {
         this.name = name;
         this.diameterInKm = diameterInKm;
         this.properties = properties;
+        this.img = img;
     }
 
     public void addMoonToList(Moon moon) {

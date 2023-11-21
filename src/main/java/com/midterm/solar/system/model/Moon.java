@@ -21,4 +21,5 @@ public class Moon {
     private Integer diameterInKm;
     private String yearDiscovered;
     private String planetName;
+    private String img;
 }
