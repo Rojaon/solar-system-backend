@@ -22,20 +22,20 @@ public class SolarSystemApplication {
 	@Bean
 	CommandLineRunner run(PlanetRepository planetRepository, MoonRepository moonRepository) {
 		return args -> {
-			planetRepository.save(new Planet("Earth",12756,new PlanetProperties(PlanetType.ROCKY_PLANET,"149604618"),"https://www.thoughtco.com/thmb/bZbxog9GJSRxvMN9ZfHiXZLVRyo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg"));
-			planetRepository.save(new Planet("Jupiter",142984,new PlanetProperties(PlanetType.GAS_GIANT,"778278758"),"https://cdn.britannica.com/84/4284-050-16C7E8C2/Photograph-Jupiter-range-Voyager-1-cloud-bands-February-1-1979.jpg"));
 			planetRepository.save(new Planet( "Mercury",5268,new PlanetProperties(PlanetType.ROCKY_PLANET,"57292646"),"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/900px-Mercury_in_true_color.jpg"));
 			planetRepository.save(new Planet("Venus",12102,new PlanetProperties(PlanetType.ROCKY_PLANET,"108147917"),"https://static01.nyt.com/images/2020/09/22/science/19SCI-OUTTHERE-VENUS1/19SCI-OUTTHERE-VENUS1-superJumbo.jpg"));
+			planetRepository.save(new Planet("Earth",12756,new PlanetProperties(PlanetType.ROCKY_PLANET,"149604618"),"https://www.thoughtco.com/thmb/bZbxog9GJSRxvMN9ZfHiXZLVRyo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg"));
 			planetRepository.save(new Planet("Mars",6794,new PlanetProperties(PlanetType.ROCKY_PLANET,"229331520"),"https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"));
+			planetRepository.save(new Planet("Jupiter",142984,new PlanetProperties(PlanetType.GAS_GIANT,"778278758"),"https://www.worldatlas.com/upload/72/1c/e3/5fafefca-f534-4e9a-81c5-a824596e0cc6.png"));
 			planetRepository.save(new Planet("Saturn",120536,new PlanetProperties(PlanetType.GAS_GIANT,"1421050752"),"https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg"));
-			planetRepository.save(new Planet("Uranus",51118,new PlanetProperties(PlanetType.ICE_GIANT,"2896819200"),"https://ychef.files.bbci.co.uk/1280x720/p0257vk5.jpg"));
+			planetRepository.save(new Planet("Uranus",51118,new PlanetProperties(PlanetType.ICE_GIANT,"2896819200"),"https://static.independent.co.uk/2020/12/23/11/uranus.png"));
 			planetRepository.save(new Planet("Neptune",49532,new PlanetProperties(PlanetType.ICE_GIANT,"4345228800"),"https://smd-cms.nasa.gov/wp-content/uploads/2023/09/PIA01492-1.jpg"));
 
 			Moon moon = new Moon("Moon(Luna)",3474,"Prehistoric","Earth","https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/800px-FullMoon2010.jpg");
-			Moon ganymede = new Moon("Ganymede",5268,"1610","Jupiter","https://s3.amazonaws.com/www.explorersweb.com/wp-content/uploads/2023/03/06180058/jupiter-2.jpg");
+			Moon ganymede = new Moon("Ganymede",5268,"1610","Jupiter","https://upload.wikimedia.org/wikipedia/commons/f/f2/Moon_Ganymede_by_NOAA.jpg");
 			Moon callisto = new Moon("Callisto",4820,"1610","Jupiter","https://upload.wikimedia.org/wikipedia/commons/e/e9/Callisto.jpg");
-			Moon titan = new Moon("Titan",5152,"1655","Saturn","https://media.npr.org/assets/img/2017/10/16/titan-41d62a75c7b7376fe8ff872bb1deec3bc24a4a14.jpeg");
-			Moon methone = new Moon("Methone",3,"2004","Saturn","https://solarsystem.nasa.gov/images/casJPGFullS73/W00073949.jpg");
+			Moon titan = new Moon("Titan",5152,"1655","Saturn","https://imageio.forbes.com/blogs-images/jamiecartereurope/files/2019/04/T96VIMSNorthPole.jpg?format=jpg&height=900&width=1600&fit=bounds");
+			Moon methone = new Moon("Methone",3,"2004","Saturn","https://upload.wikimedia.org/wikipedia/commons/2/2c/Methone_PIA14633.jpg");
 			Moon triton = new Moon("Triton",2706,"1846","Neptune","https://airandspace.si.edu/sites/default/files/styles/body_large/public/media-assets/Triton_USGS_Pic1.jpg?itok=RcWCy_lU");
 			Moon laomedeia = new Moon("Laomedeia",42,"2002","Neptune","https://simotron.files.wordpress.com/2013/07/neptune1.jpg");
 			Moon titania = new Moon("Titania",1576,"1787","Uranus","https://sos.noaa.gov/ftp_mirror/astronomy/uranus_moons/titania/media/thumbnail_big.jpg");

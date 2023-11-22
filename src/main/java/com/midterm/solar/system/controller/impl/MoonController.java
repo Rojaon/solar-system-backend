@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api")
 public class MoonController  implements IMoonController {
     @Autowired
@@ -27,6 +28,13 @@ public class MoonController  implements IMoonController {
         List<Moon> moonList = moonRepository.findAll();
         if (moonList.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No moons found.");
         else return moonList;
+    }
+    @GetMapping("/moons/{moonName}")
+    @ResponseStatus(HttpStatus.OK)
+    public Moon getMoonById(@PathVariable String moonName) {
+        Optional<Moon> moonOptionall = moonRepository.findById(moonName);
+        if (moonOptionall.isEmpty()) throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No moon found.");
+        else return moonOptionall.get();
     }
 
     @PostMapping("/moons/add")

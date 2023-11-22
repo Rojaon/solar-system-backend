@@ -11,4 +11,5 @@ public interface IMoonController {
     public List<Moon> getAllMoons();
     public void saveMoon(Moon moon);
     public void deleteMoon(String moonName);
+    public Moon getMoonById(String moonName);
 }
