@@ -10,7 +10,7 @@ This project is about Planets and their moons in the solar system.
 - [Resources](https://github.com/Rojaon/Solar-System.Midterm-Project#resources)
 ------------------------------------------------------------------------------------------
 ### UML Class diagram
-![class diagram]((https://github.com/Rojaon/solar-system-backend/assets/109796364/f281b167-bb20-4e75-bddb-77827775e54b))
+![class diagram](https://github.com/Rojaon/solar-system-backend/assets/109796364/f281b167-bb20-4e75-bddb-77827775e54b)
 
 ### Set up
 This project was made by spring initializr and IntelliJ IDEA and some dependencies in pom.xml and you can use DBeaver to see the data.
