@@ -1,5 +1,6 @@
 # Solar System Program
 This project is about Planets and their moons in the solar system.
+- [Frontend Project](https://github.com/Rojaon/solar-system-frontend)
 ## Table of Contents
 - [UML Class diagram](https://github.com/Rojaon//solar-system-backend#uml-class-diagram)
 - [Set up](https://github.com/Rojaon//solar-system-backend#set-up)
