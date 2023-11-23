@@ -33,8 +33,8 @@ Planet Controller
 |Get|http://localhost:8080/api/moons|Nothing|Show all Moons in database|
 |Get|http://localhost:8080/api/planets/Earth|Change the planet ID "Earth" with one of the planet in the solar system|Show planet with specified ID|
 |Get|http://localhost:8080/api/planets/properties/planetType?planetType=ROCKY_PLANET|Change the planet type "ROCKY_PLANET" or "ICE_GIANT" or "GAS_GIANT"|Show all planet with specified planet Type|
-|Post|http://localhost:8080/api/planets/add|Nothing, body= {"name": "test", "diameterInKm": 1120,"yearDiscovered": "1610", "planetName": "Jupiter", "img":""}|Create new planet in database|
-|Post|http://localhost:8080/api/moons/add|Nothing|Create new moon in database|
+|Post|http://localhost:8080/api/planets/add|Nothing, body= {"name": "Uranus","diameterInKm": 51118,"properties": {"planetType": "ICE_GIANT","distanceFromSunInKm": "2896819200"},"moonList": []}|Create new planet in database|
+|Post|http://localhost:8080/api/moons/add|Nothing, body= {"name": "test", "diameterInKm": 1120,"yearDiscovered": "1610", "planetName": "Jupiter", "img":""}|Create new moon in database|
 |Put|http://localhost:8080/api/planets/Saturn|Change the planet ID "Saturn" with one of the planet in the solar system|Update planet|
 |Patch|http://localhost:8080/api/planets/diameterInKm/Neptune|Change the planet ID "Neptune" with one of the planet in the solar system|Update the diameter in specific planet|
 |Delete|http://localhost:8080/api/planets/delete/Mer|Change the planet ID "Mer"|Delete specific planet|
