@@ -27,7 +27,7 @@ Dependencies:
 Use web browser or Postman to test the program.
 
 ### Controllers and Routes structure
-Planet Controller
+
 |Request Method|URL|What to change|Description|
 |--------------|---|--------------|-----------|
 |Get|http://localhost:8080/api/planets|Nothing|Show all Planets in database|
